@@ -1,0 +1,54 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 70px;
+    box-sizing: content-box;  
+}
+
+.padre{
+    border-top: 60px solid rgb(215, 220, 220);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 31cm;
+    background: #dbe2e3;
+    margin: 6px;
+    padding: 20px;
+    border-bottom: 60px solid rgb(233, 236, 237);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+    
+.nombre{
+   color: rgb(7, 7, 7);
+   border-bottom: 1px solid black;
+}
+.cuerpo{
+    display: flex;
+}
+.izquierda{
+    margin: 6px;
+    padding: 20px;
+    flex: 1 1 30%;
+
+}
+.derecha{
+    margin: 6px;
+    padding: 20px;
+    flex: 1 1 70%;
+
+}
+figure{
+    color: rgb(236, 236, 236);
+}
+section ul{
+    color: black;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+aside{
+    background-color:rgb(216, 208, 208);
+}
